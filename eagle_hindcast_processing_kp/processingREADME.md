@@ -5,7 +5,7 @@ changes lat, long to Xp, Yp
 
 changes time from matlab based ordinal to encoded strings
 
-saves a hdf5 file type
+saves as hdf5 file type
 
 # Essential steps
 make environment for processing or move to that env 
