@@ -175,9 +175,10 @@ def main(*args, **kwargs):
 if __name__ == "__main__":
 
 
-	dataDir = '/scratch/abharath/West_Coast/iecParameters'
-	saveDir = '/scratch/abharath/west_coast_2020_hdf5'
-	year = ['2011','2012','2013','2014','2015','2016','2017','2018','2019','2020']
+	dataDir = '/projects/hindcastra/filepurgatory/WestCoast'
+	saveDir = '/scratch/kpeterso2/wave_processing/westcoast'
+	year = '2011'	
+	#year = ['2011','2012','2013','2014','2015','2016','2017','2018','2019','2020']
 
 	# run main execution
 	main(dataDir,saveDir,year)
