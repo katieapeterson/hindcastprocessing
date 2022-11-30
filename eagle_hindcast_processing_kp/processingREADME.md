@@ -1,5 +1,5 @@
 # eagle_hindcast_processing
--Batches monthly files as annual files
+Batches monthly files as annual files
 -changes lat, long to Xp, Yp
 -changes time from matlab based ordinal to encoded strings
 -saves a hdf5 file type
