@@ -12,4 +12,4 @@
 #SBATCH --error=error/error_%j.err
 
 
-srun python /projects/hindcastra/filepurgatory/WestCoast/process_bulk_file.py $1
+srun python /projects/hindcastra/filepurgatory/hindcastprocessing/eagle_hindcast_processing_kp/process_bulk_file.py $1
