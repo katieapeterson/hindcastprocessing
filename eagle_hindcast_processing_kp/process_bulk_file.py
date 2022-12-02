@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
 	dataDir = '/projects/hindcastra/filepurgatory/WestCoast'
 	saveDir = '/scratch/kpeterso2/wave_processing/westcoast'
-	year = '2014'
+	year = '2015'
 
 	# run main execution
 	main(dataDir,saveDir,year)
