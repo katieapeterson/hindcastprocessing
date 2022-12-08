@@ -11,5 +11,6 @@
 #SBATCH --output=output/output_%j.out
 #SBATCH --error=error/error_%j.err
 
-
+module load conda
+conda activate processing
 srun python /projects/hindcastra/filepurgatory/hindcastprocessing/eagle_hindcast_processing_kp/process_bulk_file.py $1
