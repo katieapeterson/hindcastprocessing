@@ -104,7 +104,7 @@ def clean_name(sd):
 
 	sd: root save directory
 	"""
-	saveFile = f'{sd}/West_Coast_wave_{Year}.h5'	
+	saveFile = f'{sd}/Hawaii_wave_{Year}.h5'	
 	if os.path.isfile(saveFile):
 		os.remove(saveFile)
 	return saveFile
@@ -175,8 +175,8 @@ def main(*args, **kwargs):
 if __name__ == "__main__":
 
 
-	dataDir = '/projects/hindcastra/filepurgatory/WestCoast'
-	saveDir = '/scratch/kpeterso2/wave_processing/westcoast'
+	dataDir = '/projects/hindcastra/filepurgatory/hawaii'
+	saveDir = '/scratch/kpeterso2/wave_processing/hawaii'
 	year = ['2011','2012','2013','2014','2015','2016','2017','2018','2019','2020']
 
 	# run main execution
