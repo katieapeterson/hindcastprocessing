@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=hindcastra
 #SBATCH --time=4:00:00
-#SBATCH --job-name=WC2020raw
+#SBATCH --job-name=Hawaii2020raw
 #SBATCH --nodes=1
 #SBATCH --mem=128GB
 #SBATCH --qos=high
