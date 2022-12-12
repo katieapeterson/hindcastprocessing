@@ -89,7 +89,7 @@ def time_split(time):
 	return pd.to_datetime(stime).strftime('%Y-%m-%d %H:%M:%S').encode()
 
 
-def scrape_files(path,shp=(10,12)):
+def scrape_files(path,shp=(42,12)):
 	"""
 	get all datafiles associated with a particular year
 
