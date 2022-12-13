@@ -13,4 +13,4 @@
 
 module load conda
 conda activate processing
-srun python /scratch/kpeterso2/wave_processing/hindcastprocessing/eagle_hindcast_processing_kp/process_bulk_file.py $1
+srun python /projects/hindcastra/filepurgatory/hindcastprocessing/eagle_hindcast_processing_kp/process_bulk_file.py $1
