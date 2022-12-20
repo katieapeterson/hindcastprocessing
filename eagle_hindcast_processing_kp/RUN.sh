@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=hindcastra
 #SBATCH --time=4:00:00
-#SBATCH --job-name=JAtollraw
+#SBATCH --job-name=CNMIraw
 #SBATCH --nodes=1
 #SBATCH --mem=128GB
 #SBATCH --qos=high
