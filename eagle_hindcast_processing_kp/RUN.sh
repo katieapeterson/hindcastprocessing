@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=hindcastra
 #SBATCH --time=4:00:00
-#SBATCH --job-name=CNMIraw
+#SBATCH --job-name=WestCoastraw
 #SBATCH --nodes=1
 #SBATCH --mem=128GB
 #SBATCH --qos=high
@@ -13,4 +13,4 @@
 
 module load conda
 conda activate processing
-srun python /projects/hindcastra/filepurgatory/hindcastprocessing/eagle_hindcast_processing_kp/process_bulk_file.py $1
+srun python /scratch/kpeterso2/wave_processing/eagle_hindcast_processing_kp/process_bulk_file.py $1
